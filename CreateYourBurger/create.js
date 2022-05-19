@@ -12,6 +12,19 @@ cosh.addEventListener('click',()=>{
     alert(boxCosh)
 })
 
+////BOX CHOICE////
 
+const boxFood = document.querySelector(".cardFood");
+const imgFood = document.querySelector(".imgBox");
+const shopNow = document.querySelector(".shopNow")
+const close = document.querySelector(".close")
+const number = document.getElementById('contact')
 
+imgFood.addEventListener("click", () =>{
+    boxFood.style.display = "flex";
+})
 
+close.addEventListener("click", () =>{
+     boxFood.style.display = "none"
+})
+shopNow.addEventListener("click", () => number.click())
