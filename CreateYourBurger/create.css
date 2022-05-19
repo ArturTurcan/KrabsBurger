@@ -1,0 +1,28 @@
+
+*{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+}
+body{
+    background-image: url("../img/krabs.jpg");
+    display: flex;
+    flex-direction: column;
+    color: indianred;
+
+}
+.blur{
+    backdrop-filter: blur(1px);
+}
+
+.chifla ,.carne , .sos-top , .sos-bottom , .cascaval , .top-top , .cosh{
+    width: 200px;
+    height: 35px;
+}
+.left-menu{
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
