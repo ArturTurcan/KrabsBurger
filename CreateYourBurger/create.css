@@ -17,7 +17,7 @@ body{
     backdrop-filter: blur(1px);
 }
 
-.chifla ,.carne , .sos-top , .sos-bottom , .cascaval , .top-top , .cosh{
+.chifla ,.carne , .sos-top , .sos-bottom , .cascaval , .top-top {
     width: 200px;
     height: 35px;
 }
@@ -25,4 +25,11 @@ body{
     padding-top: 50px;
     padding-left: 100px;
 
+}
+.cosh{
+    padding-top: 20px;
+}
+#box-cosh{
+    width: 200px;
+    height: 35px;
 }
