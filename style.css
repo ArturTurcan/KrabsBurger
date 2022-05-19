@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("img/homeIMG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%, auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    position: absolute;
+    margin: -37px 20px 20px -120px;
+    width: 100px;
+}
+
+.contactOne a {
+    position: absolute;
+    margin: -20px 20px 20px 633px;
+    color: red;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.contactTwo a {
+    position: absolute;
+    margin: -20px 20px 20px 135px;
+    color: red;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+    font-family: cursive;
+    padding: 12px;
+}
+
+li a {
+    color: orange;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+
+.contactOne a:hover {
+    transition: all .5s ease;
+    transform: rotate(-10deg) scale(0.8);
+    color: darkred;
+}
+
+.contactTwo a:hover {
+    transition: all .5s ease;
+    transform: rotate(-10deg) scale(0.8);
+    color: darkred;
+}
+
+.left a:hover {
+    transition: all .5s ease;
+    transform: rotate(-10deg) scale(1.2);
+    color: orangered;
+}
+
+.rightLogo a:hover {
+    transition: all .5s ease;
+    transform: rotate(-8deg) scale(0.9);
+    color: orangered;
+}
+
+.right a:hover {
+    transition: all .5s ease;
+    transform: rotate(10deg) scale(1.2);
+    color: orangered;
+}
