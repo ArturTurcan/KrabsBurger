@@ -114,6 +114,7 @@ li a {
     height: 450px;
     border: 2px solid darkred;
     position: absolute;
+    flex-direction: column;
     margin: 0px 20px 20px 620px;
 }
 .shopNow{
